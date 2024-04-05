@@ -2,7 +2,7 @@
 layout: post
 title:  "matrixadd"
 date:   2024-04-05 1:47
-categories: Python
+categories: PYTHON
 permalink: /archivers/matrixadd
 ---
 
