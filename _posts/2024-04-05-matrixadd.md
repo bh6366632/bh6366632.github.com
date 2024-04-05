@@ -6,7 +6,7 @@ categories: PYTHON
 permalink: /archivers/matrixadd
 ---
 
-#행열더하기
+# 행열더하기
 
 ```ptchon
 a1=[[1,2],[2,3]]
