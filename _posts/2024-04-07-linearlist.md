@@ -6,7 +6,8 @@ categories: PYTHON
 permalink: /archivers/linearlist
 ---
 
-# 선형리스트 내용 정리
+<h1> 선형리스트 내용 정리</h1>
+
 ```
 ## 함수 선언 부분 ## 
 def add_data(friend) :
