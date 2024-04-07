@@ -8,8 +8,12 @@ permalink: /archivers/linearlist
 
 <h1> 선형리스트 내용 정리</h1>
 
+- 선형리스트(Linear List)의 정의
+- 선형리스트(Linear List)란 **데이터를 일정한순서**로 나열한 자료구조
+- 순차 리스트(Ordered List)라고도 한다.
+
+# 전체 코드
 ```
-## 함수 선언 부분 ## 
 def add_data(friend) :
 	katok.append(None)
 	kLen = len(katok)
