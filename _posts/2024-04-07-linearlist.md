@@ -122,8 +122,8 @@ def insert_data(position, friend) :
 범위가 벗어자지 않은값이면 아래코드를 실행한다.
 `katok`list 마지막에 빈값을 만들고 `kLen`에 길이를 저장
 `for`문을돌면서 `katok`마지막 값에서 `postiton`번째까지의 값을
-`katok[position]'에 'None'값이 올때까지 그 뒤에 값들을 뒤로 옮긴후
-`None`값이 저장된 `katok[position] `에 `friend`값을 저장한다.
+`katok[position]'에 `None`값이 올때까지 그 뒤에 값들을 뒤로 옮긴후
+`None`값이 저장된 `katok[position]`에 `friend`값을 저장한다.
 # 데이터 삭제 코드
 ```
 def delete_data(position) :  
