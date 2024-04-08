@@ -21,3 +21,9 @@ permalink: /archivers/average
 |[1,2,3,4]|2.5|
 |[5.5|5|
 
+# 코드
+```
+def solution(arr):
+    answer=sum(arr)/len(arr)
+    return answer
+```
