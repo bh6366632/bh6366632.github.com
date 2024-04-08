@@ -2,7 +2,7 @@
 layout: post
 title:  "linearlist"
 date:   2024-04-07 08:57
-categories: PYTHON
+categories: 자료구조
 permalink: /archivers/linearlist
 ---
 
@@ -118,8 +118,31 @@ def insert_data(position, friend) :
 ```
 매개변수로 `position,friend`로 전달받고
 첫 `if` 문으로 삽입할 위치를 전달받는 `position`값이
-0 보다 작거나 `katok`의 범위를 벋어날 경우를 잡아준다.
-범위가 벗어자니 않은값이면 아래코드를 실행한다.
+0 보다 작거나 `katok`의 범위를 벗어날 경우를 잡아준다.
+범위가 벗어자지 않은값이면 아래코드를 실행한다.
 `katok`list 마지막에 빈값을 만들고 `kLen`에 길이를 저장
 `for`문을돌면서 `katok`마지막 값에서 `postiton`번째까지의 값을
-`katok[position]'에 'None'값이 올때까지 그 뒤에 값들을 뒤로 옮겨준다.
+`katok[position]'에 'None'값이 올때까지 그 뒤에 값들을 뒤로 옮긴후
+`None`값이 저장된 `katok[position]에 `friend`값을 저장한다.
+# 데이터 삭제 코드
+```
+def delete_data(position) :  
+    
+	if position < 0 or position > len(katok) :
+		print("데이터를 삭제할 범위를 벗어났습니다.")
+		return
+
+	kLen = len(katok)
+	katok[position] = None	# 데이터 삭제
+    
+	for i in range(position+1, kLen) :
+		katok[i-1] = katok[i]
+		katok[i] = None	# 배열의 제일 위치 삭제
+
+	del(katok[kLen-1])
+```
+매개변수`position`로 삭제할 값의 인덱스번호를 전달받고
+if문으로 `position`의 범위가 벗어난는지 확인후 
+`katok[position]`값을 `None`값으로 삭제 후 반복문을 통해
+`insert_data` 함수때와는 반대로 `katok[position]`뒤에 있는 값들을
+하나씩 앞으로 옮겨준다. 그리고 `katok`리스트의 마지막 값에온 `None`값 삭제
