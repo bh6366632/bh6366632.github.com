@@ -83,3 +83,18 @@ if __name__ == "__main__" :
 			print("1~4 중 하나를 입력하세요.")
 			continue
 ```
+# 데이터 추가 코드
+```
+def add_data(friend) :
+	katok.append(None)
+	kLen = len(katok)
+	katok[kLen-1] = friend
+```
+매게변수로 받은 값을 리스트의 마지막에 추가하는코드로
+`friend`로 받은 값을 `katok`리스트 마지막에 저장하기위해
+`katok` 마지막에 빈값을 추가한다.
+`kLen`변수로 `katok`의 길이를 저장한 다음
+`katok[kLen-1] = friend`로 `kLen-1` 을 사용해 
+`katok`리스트 마지막값을 가져오고 `friend`저장
+
+
