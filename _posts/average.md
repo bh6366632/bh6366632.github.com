@@ -15,7 +15,7 @@ permalink: /archivers/average
 - arr은 길이1이상,100이하인 배열입니다.
 - arr의 원소는 -10000 이상 10000이하인 정수입니다.
 입출력 예
-arr | return |
+ arr | return |
 ---|--- |
 [1,2,3,4] | 2.5  |
 [5,5] | 5  |
