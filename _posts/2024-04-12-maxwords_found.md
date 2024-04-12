@@ -8,7 +8,7 @@ permalink: /archivers/maxwords_found
 
 [문제]:https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
 
-# 문제
+# [문제]
 A sentence is a list of words that are separated by a single space with no leading or trailing spaces.
 
 You are given an array of strings sentences, where each sentences[i] represents a single sentence.
