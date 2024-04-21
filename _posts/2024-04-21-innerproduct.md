@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "내적"
+title:  "innerproduct"
 date:   2024-04-21  14:15
 categories: PYTHON
 permalink: /archivers/innerproduct
