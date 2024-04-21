@@ -27,3 +27,17 @@ permalink: /archivers/inner_product
 
 >입출력 예#1
 - a와 b의 내적은 1*(-3) + 2*(-1) + 3 * 0 + 4 * 2 = 3 입니다.
+
+
+# 코드 
+```
+def solution(a, b):
+    i=answer=0
+    while i<len(a):
+        answer += (a[i])*(b[i])
+        i+=1
+    return answer
+```
+
+- 반복문으로 입력받은 a의 길이만큼 반복하고
+- `answer' 에 a[i] * b[i] 에 값을 더한다
