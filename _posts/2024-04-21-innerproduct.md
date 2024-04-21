@@ -3,7 +3,7 @@ layout: post
 title:  "내적"
 date:   2024-04-21  14:15
 categories: PYTHON
-permalink: /archivers/inner_product
+permalink: /archivers/innerproduct
 ---
 
 [문제]: https://school.programmers.co.kr/learn/courses/30/lessons/70128?language=python3
