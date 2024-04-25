@@ -6,6 +6,7 @@ categories: PYTHON
 permalink: /archivers/innerproduct
 ---
 
+
 [문제]: https://school.programmers.co.kr/learn/courses/30/lessons/70128?language=python3
 # [문제]
 
