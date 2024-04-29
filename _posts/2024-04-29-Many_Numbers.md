@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Many_Numbers"
-date:   2024-04-29  10:23
+date:   2024-04-29  12:23
 categories: PYTHON
 permalink: /archivers/Many_Numbers
 ---
