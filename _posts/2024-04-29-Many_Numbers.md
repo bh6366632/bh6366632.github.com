@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "test"
+title:  "Many_Numbers"
 date:   2024-04-29  10:23
 categories: PYTHON
-permalink: /archivers/test
+permalink: /archivers/Many_Numbers
 ---
 
 [문제]:https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
