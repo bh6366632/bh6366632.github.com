@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "alphabet"
-date:   2024-05-01 1:40
+title:  "Basketball"
+date:   2024-05-04 12:40
 categories: PYTHON
-permalink: /archivers/alphabet
+permalink: /archivers/Basketball
 ---
 [문제]:https://www.acmicpc.net/problem/1159
 # 문제 
@@ -44,7 +44,7 @@ prijestolonasljednikovi
 ```
 bk
 ```
-
+# 문제 풀이
 ```
 N=int(input())
 s=''
