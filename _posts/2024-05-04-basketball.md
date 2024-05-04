@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "basketball"
-date:   2024-05-04 12:40
+date:   2024-05-04 
 categories: PYTHON
 permalink: /archivers/basketball
 ---
