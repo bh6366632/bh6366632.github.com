@@ -43,3 +43,20 @@ prijestolonasljednikovi
 bk
 ```
 # 문제풀이
+```
+N=int(input())
+s=''
+list=[]
+namelist=set()
+for i in range(N):
+    name=input()
+    namelist.add(name[0])
+    s+=name[0]
+for i in namelist:
+    if s.count(i) >= 5:
+        list.append(i)
+if not list :
+    print("PREDAJA")
+else:
+    print("".join(sorted(list)))
+```
